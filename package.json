@@ -1,0 +1,27 @@
+{
+  "name": "boo-routely",
+  "version": "0.0.1",
+  "main": "dist/boo-routely.cjs.js",
+  "module": "dist/boo-routely.esm.js",
+  "browser": "dist/boo-routely.umd.js",
+  "dependencies": {
+    "haunted": "^4.2.0",
+    "ms": "^2.0.0",
+    "navigo": "^7.1.2",
+    "prettier": "^1.16.4",
+    "rollup-plugin-commonjs": "^9.2.3"
+  },
+  "devDependencies": {
+    "rollup": "^1.0.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test/test.js",
+    "pretest": "npm run build"
+  },
+  "files": [
+    "dist"
+  ]
+}

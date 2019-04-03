@@ -1,0 +1,21 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  margin-top: 0;
+  background-color: #000;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  width: 80%;
+  margin: 1em auto;
+}
+
+.foo {
+  color: red;
+}

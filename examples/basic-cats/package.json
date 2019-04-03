@@ -1,0 +1,23 @@
+{
+  "name": "haunted-router",
+  "version": "1.0.0",
+  "description": "Tic-Tac-Toe with lit-html and haunted",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "haunted": "4.2.0",
+    "lit-html": "1.0.0",
+    "navigo": "7.1.2",
+    "boo-routely": "file:../"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "browserslist": [
+    "last 2 chrome versions"
+  ],
+  "keywords": []
+}
